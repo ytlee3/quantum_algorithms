@@ -4,4 +4,4 @@ We are given a hidden boolean function $f$ in quantum computer (oracle). This fu
 
 $f({x_0, x_1, x_2,..., x_n}) \rightarrow$ 0 or 1 for each bit, where $x_n$ is 0 or 1 
 
-We hope that the function is either a constant function or a balanced. 
+We hope that the function is either a constant function or a balanced. Constant function return all 0 or all 1 for any input and balanced function return 0 for half of the input and 1 for the other half.
