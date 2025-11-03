@@ -19,3 +19,5 @@ In general, the worst-case number of trials required to determine the property o
 Here is the quantum circuit for Deutsch-Jozsa algorithm, let's check out the wavefunction step by step.
 
 <img width="600" height="400" alt="Screenshot 2025-10-28 at 21 44 37" src="https://github.com/user-attachments/assets/4f728fcf-6cc1-4ef2-847e-ce003e4839dd" />
+
+1. $|\psi_0 \rangle = |0\rangle^{\otimes n} |1\rangle$
