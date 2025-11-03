@@ -22,6 +22,6 @@ Here is the quantum circuit for Deutsch-Jozsa algorithm, let's check out the wav
 
 1. $|\psi_0 \rangle = |0\rangle^{\otimes n} |1\rangle$
 
-2. After applying the Hadamard gate, the wavefunction will occupy all basis states with equal probability, and we use x to denote the basis in numerical form.
+2. After applying the Hadamard gate, the wavefunction will occupy all basis states with equal probability, and we use x to denote the basis in numerical form. For example, $ 0 = |00...00\rangle, \ 1=|00...01\rangle, \ |2\rangle = |00...10 \rangle $ 
    
 $|\psi_1 \rangle = \frac{1}{\sqrt{2^{n+1}}} \sum_{x=0}^{2^n-1} |x\rangle (|0\rangle -|1\rangle)$
