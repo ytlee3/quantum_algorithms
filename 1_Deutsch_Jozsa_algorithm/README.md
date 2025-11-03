@@ -1,3 +1,4 @@
+
 ## Problem statement 
 
 We are given a hidden Boolean function $f$ in a quantum computer (oracle). This function takes a bitstring as input and outputs either 0 or 1 for each bit.
