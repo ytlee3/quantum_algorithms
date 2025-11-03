@@ -28,4 +28,4 @@ $|\psi_0 \rangle = |0\rangle^{\otimes n} |1\rangle$
    
 $|\psi_1 \rangle = \frac{1}{\sqrt{2^{n+1}}} \sum_{x=0}^{2^n-1} |x\rangle (|0\rangle -|1\rangle)$
 
-3. We have the function $f$ can map $|x\rangle|y\rangle$ to $|x\rangle|y\oplus f(x)\rangle$
+3. We have the function $f$ (quantum oracle) can map $|x\rangle|y\rangle$ to $|x\rangle|y\oplus f(x)\rangle$
