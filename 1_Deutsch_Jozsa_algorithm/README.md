@@ -27,3 +27,5 @@ $|\psi_0 \rangle = |0\rangle^{\otimes n} |1\rangle$
 2. After applying the Hadamard gate, the wavefunction will occupy all basis states with equal probability, and we use x to denote the basis in numerical form. For example, $|0\rangle = |00...00\rangle, \ |1\rangle=|00...01\rangle, \ |2\rangle = |00...10 \rangle$, $|x\rangle = |int_2(x)\rangle$ 
    
 $|\psi_1 \rangle = \frac{1}{\sqrt{2^{n+1}}} \sum_{x=0}^{2^n-1} |x\rangle (|0\rangle -|1\rangle)$
+
+3. We have the function $f$ can map $|x\rangle|y\rangle$ to $|x\rangle|y\oplus f(x)\rangle$
