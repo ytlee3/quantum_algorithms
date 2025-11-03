@@ -36,4 +36,4 @@ if $f(x) =0$, $|x\rangle |- \oplus f(x) \rangle = (|0\oplus 0 \rangle - |1 \oplu
 
 $U_f$ has propertis of phase inversion $|\psi_2 \rangle = \frac{1}{\sqrt{2^{n}}} \sum_{x=0}^{2^n-1} (-1)^{f(x)}|x\rangle |-\rangle$
 
-4. Applying n Hadamard gates again and we have  $|\psi_3 \rangle = \frac{1}{\sqrt{2^{n}}} \sum_{x=0}^{2^n-1} (-1)^{f(x)} H |x\rangle |-\rangle$
+4. Applying n Hadamard gates again and we have  $|\psi_3 \rangle = \frac{1}{\sqrt{2^{n}}} \sum_{x=0}^{2^n-1} (-1)^{f(x)} H |x\rangle |-\rangle$. Due to the phase kickback, we ignore the state at the last qubit
