@@ -31,3 +31,5 @@ $|\psi_1 \rangle = \frac{1}{\sqrt{2^{n+1}}} \sum_{x=0}^{2^n-1} |x\rangle (|0\ran
 3. We have the function $f$ (quantum oracle) can map $|x\rangle|y\rangle$ to $|x\rangle|y\oplus f(x)\rangle$
 
 $|\psi_2 \rangle = \frac{1}{\sqrt{2^{n}}} \sum_{x=0}^{2^n-1} |x\rangle |- \oplus f(x) \rangle$
+
+For if $f(x) =0$, $|x\rangle |- \oplus f(x) \rangle = \frac{1}{\sqrt{2}} (|0\oplus 0 \rangle - |1 \oplus 0\rangle ) =|-\rangle$ 
