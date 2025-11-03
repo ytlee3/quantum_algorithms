@@ -32,4 +32,4 @@ $|\psi_1 \rangle = \frac{1}{\sqrt{2^{n+1}}} \sum_{x=0}^{2^n-1} |x\rangle (|0\ran
 
 $|\psi_2 \rangle = \frac{1}{\sqrt{2^{n}}} \sum_{x=0}^{2^n-1} |x\rangle |- \oplus f(x) \rangle$
 
-For if $f(x) =0$, $|x\rangle |- \oplus f(x) \rangle = (|0\oplus 0 \rangle - |1 \oplus 0\rangle ) / \sqrt{2}=|-\rangle$ 
+if $f(x) =0$, $|x\rangle |- \oplus f(x) \rangle = (|0\oplus 0 \rangle - |1 \oplus 0\rangle ) / \sqrt{2}=|-\rangle$, if $f(x) =1$, $|x\rangle |- \oplus f(x) \rangle = (|0\oplus 1 \rangle - |1 \oplus 1\rangle ) / \sqrt{2}= - |-\rangle$ 
