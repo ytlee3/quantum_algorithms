@@ -22,4 +22,4 @@ Here is the quantum circuit for Deutsch-Jozsa algorithm, let's check out the wav
 
 1. $|\psi_0 \rangle = |0\rangle^{\otimes n} |1\rangle$
 
-2. $|\psi_1 \rangle = \frac{1}{\sqrt{2^{n+1}}}$
+2. $|\psi_1 \rangle = \frac{1}{\sqrt{2^{n+1}}} \sum_{x=0}^{2^n-1} |x\rangle$
