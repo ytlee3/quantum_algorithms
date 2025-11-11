@@ -2,7 +2,8 @@
 
 ## Problem statement 
 
-We are given a hidden Boolean function $f$ in a quantum computer (oracle). This function takes a bitstring as input and outputs either 0 or 1 for each bit.
+We are given a oracle function $f$, such that $f(x)$ will evalaute the dot product between x and secret string s. 
+$f(x) = x \dot s$
 
 $f({x_0, x_1, x_2,..., x_n}) \rightarrow$ 0 or 1 for each bit, where $x_n$ is 0 or 1 
 
