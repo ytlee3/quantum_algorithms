@@ -37,7 +37,7 @@ $|\psi_3 \rangle = \frac{1}{\sqrt{2^{n}}} \sum_{x=0}^{2^n-1} (-1)^{f(x)} H^{\oti
 
 when $s=j$, $s \oplus j = |0\rangle$, where $|0\rangle \cdot |x\rangle$ is always 0, phase factor = 0, $|\psi_3 = |s \rangle$
 
-if $s \neq j$
+when $s \neq j$
 
 Based on the above equation, the probability of measuring the state $|j\rangle$ is $|\frac{1}{2^{n}} \sum_{x=0}^{2^n-1} (-1)^{(x \cdot (s \oplus j))} |^2$
 
