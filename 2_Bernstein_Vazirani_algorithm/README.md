@@ -10,7 +10,7 @@ Our goal is to find out the secret string s. In the worst-case scenario, we need
 ## Quantum algorithm 
 Here is the quantum circuit for Bernstein-Vazirani algorithm, let's check out the wavefunction step by step.
 
-<img width="600" height="400" alt="Screenshot 2025-10-28 at 21 44 37" src="https://github.com/user-attachments/assets/4f728fcf-6cc1-4ef2-847e-ce003e4839dd" />
+<img width="405" height="421" alt="figure" src="https://github.com/user-attachments/assets/e617ea19-78f1-4829-8193-6d9ff30ce25f" />
 
 1. First preparing n $|0\rangle$ state and one $|1\rangle$ state
 
