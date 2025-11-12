@@ -39,9 +39,6 @@ when $s=j$, $s \oplus j = |0\rangle$, where $|0\rangle \cdot |x\rangle$ is alway
 
 when $s \neq j$, $s \oplus j \neq |0\rangle$, and since x will go through all possible bitstring, $(s \oplus j) \cdot x$ will end up with equal number of 0 and 1, and then the probabilty for the corresponding bitstring will be zero.
 
-Based on the above equation, the probability of measuring the state $|j\rangle$ is $|\frac{1}{2^{n}} \sum_{x=0}^{2^n-1} (-1)^{(x \cdot (s \oplus j))} |^2$
+Therefore, when we measure, we only can measure the case where $s=j$.
 
-The probability of measuring $j= |0\rangle = |0\rangle^{\otimes n}$ is $|j\rangle$ is $|\frac{1}{2^{n}} \sum_{x=0}^{2^n-1} (-1)^{f(x)}  |^2$
-
-if the $f(x)$ is constant then the measured probability is one, if the $f(x)$ is balanced then the measured probability is zero.
    
