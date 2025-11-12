@@ -1,10 +1,10 @@
-
-
 ## Problem statement 
 
-We are given a oracle function $f$, such that $f(x)$ will evalaute the dot product between x and secret string s. 
+We are given an oracle function $f$, such that $f(x)$ evaluates the dot product between x and the secret string s.
 
 $f(x) = x \cdot s = x_0s_0 \oplus x_1s_1 \oplus ... \oplus x_{n-1}s_{n-1}$
+
+Our goal is to find out the secret string s.
 
 
 ## Quantum algorithm 
