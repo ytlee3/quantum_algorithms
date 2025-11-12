@@ -4,7 +4,7 @@
 
 We are given a oracle function $f$, such that $f(x)$ will evalaute the dot product between x and secret string s. 
 
-$f(x) = x \cdot s$
+$f(x) = x \cdot s = x_0s_0 \oplus x_1s_1 \oplus ... \oplus x_{n-1}s_{n-1}$$
 
 $f({x_0, x_1, x_2,..., x_n}) \rightarrow$ 0 or 1 for each bit, where $x_n$ is 0 or 1 
 
