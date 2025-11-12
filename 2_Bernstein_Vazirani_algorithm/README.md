@@ -12,9 +12,9 @@ Here is the quantum circuit for Bernstein-Vazirani algorithm, let's check out th
 
 <img width="405" height="421" alt="figure" src="https://github.com/user-attachments/assets/e617ea19-78f1-4829-8193-6d9ff30ce25f" />
 
-1. First preparing n $|0\rangle$ state and one $|1\rangle$ state
+1. First preparing n $|0\rangle$ state and one $|-\rangle$ state
 
-$|\psi_0 \rangle = |0\rangle^{\otimes n} |1\rangle$
+$|\psi_0 \rangle = |0\rangle^{\otimes n} |-\rangle$
 
 2. After applying the Hadamard gate, the wavefunction will occupy all basis states with equal probability, and we use x to denote the basis in numerical form. For example, $|0\rangle = |00...00\rangle, \ |1\rangle=|00...01\rangle, \ |2\rangle = |00...10 \rangle$, $|x\rangle = |int_2(x)\rangle$ 
    
