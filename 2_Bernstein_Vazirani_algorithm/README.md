@@ -35,7 +35,7 @@ $H^{\otimes n} |k\rangle =  1/\sqrt{2^n} \sum_{j=0}^{2^n-1} (-1)^{k \cdot j} |j\
 
 $|\psi_3 \rangle = \frac{1}{\sqrt{2^{n}}} \sum_{x=0}^{2^n-1} (-1)^{f(x)} H^{\otimes n} |x\rangle =  \frac{1}{\sqrt{2^{n}}} \sum_{x=0}^{2^n-1} (-1)^{x \cdot s} \[ \frac{1}{\sqrt{2^n}} \sum_{j=0}^{2^n-1} (-1)^{x \cdot j} |j\rangle \] =  \sum_{j=0}^{2^n-1}  \[ \frac{1}{2^{n}} \sum_{x=0}^{2^n-1} (-1)^{f(x)}  (-1)^{x \cdot j} \] |j\rangle  $
 
-Based on the above equation, the probability of measuring the state $|j\rangle$ is $|\frac{1}{2^{n}} \sum_{x=0}^{2^n-1} (-1)^{f(x)}  (-1)^{x \cdot j} |^2$
+Based on the above equation, the probability of measuring the state $|j\rangle$ is $|\frac{1}{2^{n}} \sum_{x=0}^{2^n-1} (-1)^{(x \cdot (s \oplus j)} |^2$
 
 The probability of measuring $j= |0\rangle = |0\rangle^{\otimes n}$ is $|j\rangle$ is $|\frac{1}{2^{n}} \sum_{x=0}^{2^n-1} (-1)^{f(x)}  |^2$
 
