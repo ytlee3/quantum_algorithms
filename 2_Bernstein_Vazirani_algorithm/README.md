@@ -39,6 +39,6 @@ when $s=j$, $s \oplus j = |0\rangle$, where $|0\rangle \cdot |x\rangle$ is alway
 
 when $s \neq j$, $s \oplus j \neq |0\rangle$, and since x will go through all possible bitstring, $(s \oplus j) \cdot x$ will end up with equal number of 0 and 1, and then the probabilty for the corresponding bitstring will be zero.
 
-Therefore, when we measure, we only can measure the case where $|s\rangle =|j\rangle$.
+Therefore, when we measure, the measure outcome will only be the case where $|s\rangle =|j\rangle$.
 
    
