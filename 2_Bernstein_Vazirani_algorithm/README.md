@@ -4,7 +4,7 @@ We are given an oracle function $f$, such that $f(x)$ evaluates the dot product 
 
 $f(x) = x \cdot s = x_0s_0 \oplus x_1s_1 \oplus ... \oplus x_{n-1}s_{n-1}$
 
-Our goal is to find out the secret string s.
+Our goal is to find out the secret string s. In the worst-case scenario, we need to run the query n times to obtain the entire secret string.
 
 
 ## Quantum algorithm 
