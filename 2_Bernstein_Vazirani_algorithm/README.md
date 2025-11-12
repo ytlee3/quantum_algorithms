@@ -41,4 +41,7 @@ When $s \neq j$, $s \oplus j \neq |0\rangle$, and since $x$ will go through all 
 
 Therefore, when we measure, the measurement outcome will only correspond to the case where $|s\rangle = |j\rangle$.
 
+### Reference 
+
+Bernstein, Ethan, and Umesh Vazirani. "Quantum complexity theory." Proceedings of the twenty-fifth annual ACM symposium on Theory of computing. 1993.
    
