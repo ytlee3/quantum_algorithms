@@ -1,3 +1,4 @@
+
 ## Problem statement 
 
 We are given an oracle function $f$, such that $f(x)$ evaluates the dot product between x and the secret string s.
