@@ -37,8 +37,8 @@ $|\psi_3 \rangle = \frac{1}{\sqrt{2^{n}}} \sum_{x=0}^{2^n-1} (-1)^{f(x)} H^{\oti
 
 when $s=j$, $s \oplus j = |0\rangle$, where $|0\rangle \cdot |x\rangle$ is always 0, phase factor = 0, $|\psi_3 \rangle = |s \rangle$
 
-when $s \neq j$, $s \oplus j \neq |0\rangle$, and since x will go through all possible bitstring, $(s \oplus j) \cdot x$ will end up with equal number of 0 and 1 (try with 3 qubits state and you will see), and then the probabilty for the corresponding bitstring will be zero.
+When $s \neq j$, $s \oplus j \neq |0\rangle$, and since $x$ will go through all possible bitstrings, $(s \oplus j) \cdot x$ will result in an equal number of 0s and 1s (try it with a 3-qubit state and you will see). Consequently, the probability for the corresponding bitstring will be zero.
 
-Therefore, when we measure, the measure outcome will only be the case where $|s\rangle =|j\rangle$.
+Therefore, when we measure, the measurement outcome will only correspond to the case where $|s\rangle = |j\rangle$.
 
    
