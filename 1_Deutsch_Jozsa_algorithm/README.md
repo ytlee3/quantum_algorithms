@@ -49,6 +49,6 @@ The probability of measuring $j= |0\rangle = |0\rangle^{\otimes n}$ is $|j\rangl
 
 if the $f(x)$ is constant then the measured probability is one, if the $f(x)$ is balanced then the measured probability is zero.
 
-Reference:
+###Reference
 
 Deutsch, David, and Richard Jozsa. "Rapid solution of problems by quantum computation." Proceedings of the Royal Society of London. Series A: Mathematical and Physical Sciences 439.1907 (1992): 553-558.
