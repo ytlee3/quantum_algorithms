@@ -39,7 +39,7 @@ $U_f$ has propertis of phase inversion $|\psi_2 \rangle = \frac{1}{\sqrt{2^{n}}}
 
 4. Applying n Hadamard gates again and we have  $|\psi_3 \rangle = \frac{1}{\sqrt{2^{n}}} \sum_{x=0}^{2^n-1} (-1)^{f(x)} H^{\otimes n} |x\rangle |-\rangle$. Due to the phase kickback, we ignore the state at the last qubit $|-\rangle$ first and let's take a look of the hadamard transformation.
 
-* phase kickback: for the Hadamard - control-U gate - Hadamard circuit, the phase information from the target qubit will transfer to controll qubit due to entanglement
+* phase kickback: for the Hadamard - control-U gate - Hadamard circuit, the phase information from the target qubit will transfer to controll qubit due to entanglement. The target state needs to be the eigenstate of the U gate 
 
 $H^{\otimes n} |k\rangle =  1/\sqrt{2^n} \sum_{j=0}^{2^n-1} (-1)^{k \cdot j} |j\rangle$, where $k \cdot j = k_0j_0 \oplus k_1j_1 \oplus ... \oplus k_{n-1}j_{n-1}$ is the sum of the bitwise product
 
