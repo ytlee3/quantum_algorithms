@@ -10,7 +10,8 @@ In general, the worst-case number of trials required to determine the property o
 ## Quantum algorithm 
 Here is the quantum circuit for solving Simon's problem, let's check out the wavefunction step by step.
 
-<img width="405" height="421" alt="figure" src="https://github.com/user-attachments/assets/e617ea19-78f1-4829-8193-6d9ff30ce25f" />
+<img width="827" height="413" alt="The-quantum-circuit-corresponding-to-the-Simons-algorithm" src="https://github.com/user-attachments/assets/1e59fb97-a925-4362-aa90-5ceb101f44f9" />
+
 
 1. First preparing n $|0\rangle$ state and one $|-\rangle$ state
 
