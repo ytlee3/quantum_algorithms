@@ -8,7 +8,7 @@ In general, the worst-case number of trials required to determine the property o
 
 
 ## Quantum algorithm 
-Here is the quantum circuit for Bernstein-Vazirani algorithm, let's check out the wavefunction step by step.
+Here is the quantum circuit for solving Simon's problem, let's check out the wavefunction step by step.
 
 <img width="405" height="421" alt="figure" src="https://github.com/user-attachments/assets/e617ea19-78f1-4829-8193-6d9ff30ce25f" />
 
