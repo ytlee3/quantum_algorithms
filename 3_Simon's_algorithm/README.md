@@ -1,6 +1,20 @@
 ## Problem statement 
 
-We are given an oracle function $f$, such that $f(x)$ evaluates the dot product between x and the secret string s.
+We are given an oracle function $f$, such that $f(x)$ is either one-to-one or two-to-one function.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 $f(x) = x \cdot s = x_0s_0 \oplus x_1s_1 \oplus ... \oplus x_{n-1}s_{n-1}$
 
