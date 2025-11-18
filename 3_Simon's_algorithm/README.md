@@ -1,7 +1,7 @@
 ## Problem statement 
 
 We are given an oracle function $f$, such that $f(x)$ is either one-to-one or two-to-one function.
-
+if $f(x)$ is a two-to-one function. it's promised that there exists a non-zero bitstring b such that given $x_1$, $x_2$, if $f(x_1)=f(x_2)$ and $x_1 = x_2 \oplus b$
 
 
 
