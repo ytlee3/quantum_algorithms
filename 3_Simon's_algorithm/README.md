@@ -13,9 +13,9 @@ Here is the quantum circuit for solving Simon's problem, let's check out the wav
 <img width="827" height="413" alt="The-quantum-circuit-corresponding-to-the-Simons-algorithm" src="https://github.com/user-attachments/assets/1e59fb97-a925-4362-aa90-5ceb101f44f9" />
 
 
-1. First preparing n $|0\rangle$ state and one $|-\rangle$ state
+1. First preparing n $|0\rangle$ state and the other n $|0\rangle$ state
 
-$|\psi_0 \rangle = |0\rangle^{\otimes n} |-\rangle$
+$|\psi_0 \rangle = |0\rangle^{\otimes n} |0\rangle^{\otimes}$
 
 2. After applying the Hadamard gate, the wavefunction will occupy all basis states with equal probability, and we use x to denote the basis in numerical form. For example, $|0\rangle = |00...00\rangle, \ |1\rangle=|00...01\rangle, \ |2\rangle = |00...10 \rangle$, $|x\rangle = |int_2(x)\rangle$ 
    
