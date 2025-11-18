@@ -2,23 +2,8 @@
 
 We are given an oracle function $f$, such that $f(x)$ is either a one-to-one or a two-to-one function. 
 If $f(x)$ is a two-to-one function, it is promised that there exists a non-zero bitstring $b$ such that for any $x_1$ and $x_2$, if $f(x_1) = f(x_2)$, then $x_1 = x_2 \oplus b$.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-$f(x) = x \cdot s = x_0s_0 \oplus x_1s_1 \oplus ... \oplus x_{n-1}s_{n-1}$
-
-Our goal is to find out the secret string s. In the worst-case scenario, we need to run the query n times to obtain the entire secret string.
+Our goal is to find out if $f(x)$ is one-to-one or two-to-one function by finding the bitstring $b$.
+In the worst-case scenario, we need to run the query n times to obtain the entire secret string.
 
 
 ## Quantum algorithm 
