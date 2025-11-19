@@ -30,7 +30,7 @@ $|\psi_2 \rangle = \frac{1}{\sqrt{2^{n}}} \sum_{x=0}^{2^n-1} |x\rangle | 0^{\oti
 $|\psi_3 \rangle =  \frac{1}{\sqrt{2^{n}}} \sum_{x=0}^{2^n-1}  |x\rangle | f(x) \rangle =  \frac{1}{\sqrt{2^n}} \sum_{x=0}^{2^n-1}  [ \frac{1}{\sqrt{2^n}} \sum_{j=0}^{2^n-1} (-1)^{x \cdot j} |j\rangle ] | f(x) \rangle =  \sum_{j=0}^{2^n-1} |j \rangle  [\frac{1}{2^n} \sum^{2^n-1}_{x=0} (-1)^{x \cdot j} |f(x)\rangle]$
 
 
-5. When measuring the first n qubit, the probability of measuring the state  $| j \rangle $ is 
+5. When measuring the first n qubit, the probability of measuring the state $|j\rangle$ is 
 $|| \frac{1}{2^n} \sum^{2^n-1}_{x=0} (-1)^{x \cdot j} |f(x)\rangle ||^2 $
 
 * Condition one: if f(x) is an one-to-one function 
