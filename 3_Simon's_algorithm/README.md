@@ -37,7 +37,8 @@ $|| \frac{1}{2^n} \sum^{2^n-1}_{x=0} (-1)^{x \cdot j} |f(x)\rangle ||^2 $
 
 The measured probability will be $\frac{1}{2^n}$ as there will be the sum of $2^n$ probability of $(\frac{\pm 1}{2^n})^ 2 $, which will end up with $\frac{1}{2^n}$, which is uniform distribution. 
 
-```Condition two: if f(x) is an two-to-one function that $f(x_1) = f(x_2) = z$ and $x_1 = x_2 \oplus b$. every two input corresponds to one output```
+```Condition two: if f(x) is an two-to-one function```
+: so that $f(x_1) = f(x_2) = z$ and $x_1 = x_2 \oplus b$. every two input corresponds to one output```
 
 The measured probability will be $|| \frac{1}{2^n} \sum_{z \in range(f)} (-1)^{x_1 \cdot j} + (-1)^{x_2 \cdot j} |z\rangle ||^2 $, $z \in range(f) = \{f(x): x \}$ which is all possible outputs.
  
