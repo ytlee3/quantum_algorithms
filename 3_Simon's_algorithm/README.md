@@ -53,5 +53,5 @@ when $j \cdot b = 0$ , there will be sum $2^{n-1}$  (number of output for two-to
 
 ### Reference 
 
-Bernstein, Ethan, and Umesh Vazirani. "Quantum complexity theory." Proceedings of the twenty-fifth annual ACM symposium on Theory of computing. 1993.
+Simon, Daniel R. "On the power of quantum computation." SIAM journal on computing 26.5 (1997): 1474-1483.
    
