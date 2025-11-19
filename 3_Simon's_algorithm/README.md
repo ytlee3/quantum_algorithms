@@ -41,7 +41,7 @@ The measured probability will be $\frac{1}{2^n}$ as there will be the sum of $2^
 
 The measured probability will be $|| \frac{1}{2^n} \sum_{z \in range(f)} (-1)^{x_1 \cdot j} + (-1)^{x_2 \cdot j} |z\rangle ||^2 $, $z \in range(f) = \{f(x): x \}$ which is all possible outputs.
  
-$|| \frac{1}{2^n} \sum_{z \in range(f)} (-1)^{x_1 \cdot j} + (-1)^{x_2 \cdot j} |z\rangle ||^2  = || \frac{1}{2^n} \sum_{z \in range(f)} (-1)^{x_1 \cdot j} + (-1)^{{x_1 \oplus b} \cdot j} |z\rangle ||^2 
+$|| \frac{1}{2^n} \sum_{z \in range(f)} (-1)^{x_1 \cdot j} + (-1)^{x_2 \cdot j} |z\rangle ||^2  = || \frac{1}{2^n} \sum_{z \in range(f)} (-1)^{x_1 \cdot j} + (-1)^{{x_1 \oplus b} \cdot j} |z\rangle ||^2 $
 
 ### Reference 
 
