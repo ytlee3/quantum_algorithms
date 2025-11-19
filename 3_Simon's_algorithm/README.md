@@ -33,7 +33,7 @@ $|\psi_3 \rangle =  \frac{1}{\sqrt{2^{n}}} \sum_{x=0}^{2^n-1}  |x\rangle | f(x) 
 5. When measuring the first n qubit, the probability of measuring the state $|j\rangle$ is 
 $|| \frac{1}{2^n} \sum^{2^n-1}_{x=0} (-1)^{x \cdot j} |f(x)\rangle ||^2 $
 
-* Condition one: if f(x) is an one-to-one function 
+```Condition one: if f(x) is an one-to-one function```
 
 The measured probability will be $\frac{1}{2^n}$ as there will be the sum of $2^n$ probability of $(\frac{\pm 1}{2^n})^ 2 $, which will end up with $\frac{1}{2^n}$, which is uniform distribution. 
 
