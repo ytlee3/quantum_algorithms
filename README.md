@@ -3,4 +3,4 @@ Including starndard algorithm in the text book and some other published algorith
 I used shot-based simulation to run the quantum algorithm mostly here
 
 
-VQE, KQD, SKQD, 
+VQE, KQD, SKQD, shor's algorithm,
