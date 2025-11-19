@@ -46,7 +46,7 @@ let deal with the part of $(-1)^{x_1 \cdot j} + (-1)^{x_2 \cdot j}$ here
 
 $(-1)^{x_1 \cdot j} + (-1)^{x_2 \cdot j} = (-1)^{x_1 \cdot j} + (-1)^{(x_1 \oplus b) \cdot j}  = (-1)^{x_1 \cdot j} + (-1)^{(x_1 \cdot j \oplus b \cdot j )} = (-1)^{x_1 \cdot j} (1+ (-1)^{j \cdot b}) $  
 
-when $ j \cdot b = 0 $ 
+when $j \cdot b = 0 $ 
 
 ### Reference 
 
