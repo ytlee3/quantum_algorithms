@@ -41,19 +41,7 @@ The measured probability will be $\frac{1}{2^n}$ as there will be the sum of $2^
 
 The measured probability will be $|| \frac{1}{2^n} \sum_{z \in range(f)} (-1)^{x_1 \cdot j} + (-1)^{x_2 \cdot j} |z\rangle ||^2 $, $z \in range(f) = \{f(x): x \}$ which is all possible outputs.
  
- 
- 
- and we have  $|\psi_3 \rangle = \frac{1}{\sqrt{2^{n}}} \sum_{x=0}^{2^n-1} (-1)^{f(x)} H^{\otimes n} |x\rangle |-\rangle$. Due to the phase kickback, we ignore the state at the last qubit $|-\rangle$ first and let's take a look of the hadamard transformation.
-
-$H^{\otimes n} |k\rangle =  1/\sqrt{2^n} \sum_{j=0}^{2^n-1} (-1)^{k \cdot j} |j\rangle$, where $k \cdot j = k_0j_0 \oplus k_1j_1 \oplus ... \oplus k_{n-1}j_{n-1}$ is the sum of the bitwise product
-
-$|\psi_3 \rangle = \frac{1}{\sqrt{2^{n}}} \sum_{x=0}^{2^n-1} (-1)^{f(x)} H^{\otimes n} |x\rangle =  \frac{1}{\sqrt{2^{n}}} \sum_{x=0}^{2^n-1} (-1)^{x \cdot s} \[ \frac{1}{\sqrt{2^n}} \sum_{j=0}^{2^n-1} (-1)^{x \cdot j} |j\rangle \] =  \sum_{j=0}^{2^n-1}  \[ \frac{1}{2^{n}} \sum_{x=0}^{2^n-1} (-1)^{(x \cdot (s \oplus j))} \] |j\rangle  $
-
-when $s=j$, $s \oplus j = |0\rangle$, where $|0\rangle \cdot |x\rangle$ is always 0, phase factor = 0, $|\psi_3 \rangle = |s \rangle$
-
-When $s \neq j$, $s \oplus j \neq |0\rangle$, and since $x$ will go through all possible bitstrings, $(s \oplus j) \cdot x$ will result in an equal number of 0s and 1s (try it with a 3-qubit state and you will see). Consequently, the probability for the corresponding bitstring will be zero.
-
-Therefore, when we measure, the measurement outcome will only correspond to the case where $|s\rangle = |j\rangle$.
+$|| \frac{1}{2^n} \sum_{z \in range(f)} (-1)^{x_1 \cdot j} + (-1)^{x_2 \cdot j} |z\rangle ||^2  = || \frac{1}{2^n} \sum_{z \in range(f)} (-1)^{x_1 \cdot j} + (-1)^{{x_1 \oplus b} \cdot j} |z\rangle ||^2 
 
 ### Reference 
 
