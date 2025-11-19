@@ -39,7 +39,7 @@ The measured probability will be $\frac{1}{2^n}$ as there will be the sum of $2^
 
 * Condition two: if f(x) is an two-to-one function that $f(x_1) = f(x_2) = z$ and $x_1 = x_2 \oplus b$. every two input corresponds to one output
 
-The measured probability will be $|| \frac{1}{2^n} \sum_{z \in range(f)} (-1)^{x_1 \cdot j} + (-1)^{x_x \cdot j} |z\rangle ||^2 $
+The measured probability will be $|| \frac{1}{2^n} \sum_{z \in range(f)} (-1)^{x_1 \cdot j} + (-1)^{x_2 \cdot j} |z\rangle ||^2 $
  
  
  
