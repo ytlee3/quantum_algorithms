@@ -1,7 +1,8 @@
 
 ## Introduction ## 
 
-We will like to perform the discrete Fourier transofmration using quantum computer
+We will like to perform the discrete Fourier transofmration using quantum computer: ($x_0, x_1, ...., x_{N-1} \rightarrow$
+
 
 $y_k = \frac{1}{\sqrt{N}} \sum_{j=0}^{N-1} x_j e^{-2 \pi i (j*k)/N}$
 
