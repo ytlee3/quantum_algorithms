@@ -48,7 +48,7 @@ $(-1)^{x_1 \cdot j} + (-1)^{x_2 \cdot j} = (-1)^{x_1 \cdot j} + (-1)^{(x_1 \oplu
 
 when $j \cdot b = 1$ , the measured probability = 0 
 
-when $j \cdot b = 0$ , there will be sum $2^{n-1}$ (2^{n-1})$ output for two-to-one function) probability of ${\frac{ \pm 2}{2^n}$
+when $j \cdot b = 0$ , there will be sum $2^{n-1}$ (2^{n-1})$ output for two-to-one function) probability of ${\frac{ \pm 2}{2^n}}$
 
 ### Reference 
 
