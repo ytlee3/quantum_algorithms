@@ -17,13 +17,13 @@ Here is the quantum circuit for solving Simon's problem, let's check out the wav
 
 $|\psi_0 \rangle = |0\rangle^{\otimes n} |0\rangle^{\otimes n}$
 
-2. After applying the Hadamard gate, the wavefunction will occupy all basis states with equal probability, and we use x to denote the basis in numerical form. For example, $|0\rangle = |00...00\rangle, \ |1\rangle=|00...01\rangle, \ |2\rangle = |00...10 \rangle$, $|x\rangle = |int_2(x)\rangle$ 
+2. After applying the Hadamard gate, the wavefunction will occupy all basis states with equal probability, and we use x to denote the basis in numerical form. For example, $|0\rangle = |00...00\rangle, \ |1\rangle=|00...01\rangle, \ |2\rangle$ 
    
 $|\psi_1 \rangle  = \frac{1}{\sqrt{2^{n}}} \sum_{x=0}^{2^n-1} |x\rangle |0\rangle^{\otimes n} = \frac{1}{\sqrt{2^{n}}} \sum_{x=0}^{2^n-1} |x\rangle |0\rangle^{\otimes n} $ 
 
 3. We have the function $f$ (quantum oracle) that do the dot product between s and x 
 
-$|\psi_2 \rangle = \frac{1}{\sqrt{2^{n}}} \sum_{x=0}^{2^n-1} |x\rangle | 0^{\otimes n} \oplus f(x) \rangle$
+$|\psi_2 \rangle = \frac{1}{\sqrt{2^{n}}} \sum_{x=0}^{2^n-1} |x\rangle | 0^{\otimes n} \oplus f(x) \rangle = \frac{1}{\sqrt{2^{n}}} \sum_{x=0}^{2^n-1} |x\rangle | f(x) \rangle $
 
 4. Applying n Hadamard gates to the first half qubit with Hadamard transformation $H^{\otimes n} |k\rangle =  1/\sqrt{2^n} \sum_{j=0}^{2^n-1} (-1)^{k \cdot j} |j\rangle$, where $k \cdot j = k_0j_0 \oplus k_1j_1 \oplus ... \oplus k_{n-1}j_{n-1}$ is the sum of the bitwise product
 
