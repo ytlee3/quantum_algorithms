@@ -3,7 +3,7 @@
 
 We will like to perform the discrete Fourier transofmration using quantum computer
 
-$y_k = \frac{1}{\sqrt{N}} \sum_{j=0}^{N-1}$
+$y_k = \frac{1}{\sqrt{N}} \sum_{j=0}^{N-1} x_j e^{-2 \pi i (j*k)/N}$
 
 
 ## Quantum algorithm 
