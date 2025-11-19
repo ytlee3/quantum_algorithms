@@ -35,7 +35,7 @@ $|| \frac{1}{2^n} \sum^{2^n-1}_{x=0} (-1)^{x \cdot j} |f(x)\rangle ||^2 $
 
 * Condition one: if f(x) is an one-to-one function 
 
-The measured probability will be $\frac{1}{2^n}$ as there will be the sum of 2^n probability of $(\frac{\pm 1}{2^n})^ 2 $, which will end up with $\frac{1}{2^n}$
+The measured probability will be $\frac{1}{2^n}$ as there will be the sum of $2^n$ probability of $(\frac{\pm 1}{2^n})^ 2 $, which will end up with $\frac{1}{2^n}$
 
 * Condition two: if f(x) is an two-to-one function that $f(x_1) = f(x_2) = z $ and $x_1 = x_2 \oplus b$.
  
