@@ -44,7 +44,7 @@ The measured probability will be $|| \frac{1}{2^n} \sum_{z \in range(f)} (-1)^{x
 $|| \frac{1}{2^n} \sum_{z \in range(f)} (-1)^{x_1 \cdot j} + (-1)^{x_2 \cdot j} |z\rangle ||^2 $ 
 let deal with the part of $(-1)^{x_1 \cdot j} + (-1)^{x_2 \cdot j}$ here 
 
-$(-1)^{x_1 \cdot j} + (-1)^{x_2 \cdot j} = (-1)^{x_1 \cdot j} + (-1)^{(x_1 \oplus b) \cdot j}  = (-1)^{x_1 \cdot j} + (-1)^{(x_1 \cdot j \oplus b \cdot j )} = (-1)^{x_1 \cdot j} (1+ (-1)^{j \cdot b} $  
+$(-1)^{x_1 \cdot j} + (-1)^{x_2 \cdot j} = (-1)^{x_1 \cdot j} + (-1)^{(x_1 \oplus b) \cdot j}  = (-1)^{x_1 \cdot j} + (-1)^{(x_1 \cdot j \oplus b \cdot j )} = (-1)^{x_1 \cdot j} (1+ (-1)^{j \cdot b}) $  
 
 || \frac{1}{2^n} \sum_{z \in range(f)} (-1)^{x_1 \cdot j} + (-1)^{(x_1 \oplus b) \cdot j} |z\rangle ||^2 =  $
 
