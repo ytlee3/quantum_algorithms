@@ -30,8 +30,8 @@ F_{N}={\frac {1}{\sqrt {N}}}
 \end{pmatrix}
 $$
 
+In the case of one-qubit DFT: 
 
-$\begin{bmatrix} \end{bmatrix}$$ 
 
 ## Quantum algorithm 
 Here is the quantum circuit for solving Simon's problem, let's check out the wavefunction step by step.
