@@ -34,7 +34,6 @@ In the case of one-qubit DFT:
 
 
 $$
-
 \begin{pmatrix}
 x_0 \\
 x_1
