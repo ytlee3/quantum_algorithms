@@ -16,7 +16,7 @@ $y_0 = \frac{1}{\sqrt{2}} (\alpha \omega^{ (0 * 0) /2} + \beta \omega^{( 0* 1) /
 
 QFT $|\psi \rangle = \frac{1}{\sqrt{2}} (\alpha+\beta) |0\rangle + \frac{1}{\sqrt{2}} (\alpha-\beta) |1\rangle$, where the QFT gate is the Hadamard gate.
 
-We can also approach this in the matrix form
+We can also approach this in the matrix form, again, $\omega = e^{2\pi i /N}$
 
 $$
 F_{N}={\frac {1}{\sqrt {N}}}
