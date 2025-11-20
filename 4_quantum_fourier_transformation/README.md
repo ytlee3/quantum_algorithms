@@ -18,6 +18,8 @@ QFT $|\psi \rangle = \frac{1}{\sqrt{2}} (\alpha+\beta) |0\rangle + \frac{1}{\sqr
 
 We can also approach this in the matrix form
 
+$\begin{bmatrix} 
+\end{bmatrix}$ 
 
 ## Quantum algorithm 
 Here is the quantum circuit for solving Simon's problem, let's check out the wavefunction step by step.
