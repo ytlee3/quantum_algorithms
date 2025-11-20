@@ -18,11 +18,7 @@ QFT $|\psi \rangle = \frac{1}{\sqrt{2}} (\alpha+\beta) |0\rangle + \frac{1}{\sqr
 
 We can also approach this in the matrix form
 
-$F_{N}={\frac {1}{\sqrt {N}}} $\begin{pmatrix}
-a & b \\
-c & d
-\end{pmatrix}
-$
+$F_{N}={\frac {1}{\sqrt {N}}} $\begin{pmatrix} a & b \\ c & d \end{pmatrix}$
 
 
 
