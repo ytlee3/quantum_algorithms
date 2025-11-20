@@ -41,7 +41,7 @@ y_1
 \begin{pmatrix}
 1 & 1 \\
 1 & \omega 
-\end{pmatrix} =
+\end{pmatrix} 
 \begin{pmatrix}
 x_0 \\
 x_1
