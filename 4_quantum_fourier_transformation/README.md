@@ -37,14 +37,14 @@ $$
 \begin{pmatrix}
 y_0 \\
 y_1
-\end{pmatrix} =
+\end{pmatrix} = \frac{1}{\sqrt{2}}
 \begin{pmatrix}
 1 & 1 \\
 1 & \omega 
 \end{pmatrix} 
 \begin{pmatrix}
-x_0 \\
-x_1
+\alpha \\
+\beta
 \end{pmatrix} 
 $$
 
