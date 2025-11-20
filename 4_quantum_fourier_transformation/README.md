@@ -23,6 +23,7 @@ $F_{N}={\frac {1}{\sqrt {N}}} $\begin{pmatrix} a & b \\ c & d \end{pmatrix}$
 
 
 $$
+F_{N}={\frac {1}{\sqrt {N}}}
 \begin{pmatrix}
 1&1&1&1&\cdots &1 \\ 
 1&\omega &\omega ^{2}&\omega ^{3}&\cdots &\omega ^{N-1} \\\
