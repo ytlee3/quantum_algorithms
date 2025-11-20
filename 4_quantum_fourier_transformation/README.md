@@ -11,6 +11,7 @@ Similary, for the quantum version of DFT, we start with the state $|x\rangle = \
 where  $y_k = \frac{1}{\sqrt{N}} \sum_{j=0}^{N-1} x_j e^{2 \pi i (j*k)/N} = \frac{1}{\sqrt{N}} \sum_{j=0}^{N-1} x_j \omega_N^{jk}$, where $\omega = e^{2\pi i /N}$ is an N-th root of unity. Noted that the convention of sign in DFT varys. The corresponding inverse DFT is described as $x_k =\frac{1}{\sqrt{N}} \sum_{j=0}^{N-1} y_j \omega_N^{-jk}$.
 
 Let's take one qubit for example, we have $|\psi \rangle = \alpha |0\rangle + \beta |1\rangle$
+$y_0 = \frac{1}{\sqrt{2}) (\alpha \omega^{0 * 0/2}) + \beta \omega^{0*1/2})
 
 
 ## Quantum algorithm 
