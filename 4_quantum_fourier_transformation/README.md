@@ -35,13 +35,17 @@ In the case of one-qubit DFT:
 
 $$
 \begin{pmatrix}
-x_0 \\
-x_1
+y_0 \\
+y_1
 \end{pmatrix} =
 \begin{pmatrix}
 1 & 1 \\
 1 & \omega 
-\end{pmatrix}
+\end{pmatrix} =
+\begin{pmatrix}
+x_0 \\
+x_1
+\end{pmatrix} 
 $$
 
 
