@@ -39,6 +39,13 @@ x_0 \\
 x_1
 \end{pmatrix}
 $$
+= 
+$$
+\begin{pmatrix}
+1 & 1 \\
+1 & \omega 
+\end{pmatrix}
+$$
 
 
 ## Quantum algorithm 
