@@ -37,9 +37,9 @@ $$
 \begin{pmatrix}
 x_0 \\
 x_1
-\end{pmatrix}
+\end{pmatrix} =
 $$
-= 
+
 $$
 \begin{pmatrix}
 1 & 1 \\
