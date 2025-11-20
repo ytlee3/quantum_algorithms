@@ -18,7 +18,7 @@ QFT $|\psi \rangle = \frac{1}{\sqrt{2}} (\alpha+\beta) |0\rangle + \frac{1}{\sqr
 
 We can also approach this in the matrix form
 
-$F_{N}={\frac {1}{\sqrt {N}}}$\ begin{bmatrix}1&1&1&1&\cdots &1\\1&\omega &\omega ^{2}&\omega ^{3}&\cdots &\omega ^{N-1}\\1&\omega ^{2}&\omega ^{4}&\omega ^{6}&\cdots &\omega ^{2(N-1)}\\1&\omega ^{3}&\omega ^{6}&\omega ^{9}&\cdots &\omega ^{3(N-1)}\\\vdots &\vdots &\vdots &\vdots &\ddots &\vdots \\1&\omega ^{N-1}&\omega ^{2(N-1)}&\omega ^{3(N-1)}&\cdots &\omega ^{(N-1)(N-1)} \end{bmatrix}$ 
+$F_{N}={\frac {1}{\sqrt {N}}}$\begin{bmatrix}1&1&1&1&\cdots &1\\1&\omega &\omega ^{2}&\omega ^{3}&\cdots &\omega ^{N-1}\\1&\omega ^{2}&\omega ^{4}&\omega ^{6}&\cdots &\omega ^{2(N-1)}\\1&\omega ^{3}&\omega ^{6}&\omega ^{9}&\cdots &\omega ^{3(N-1)}\\\vdots &\vdots &\vdots &\vdots &\ddots &\vdots \\1&\omega ^{N-1}&\omega ^{2(N-1)}&\omega ^{3(N-1)}&\cdots &\omega ^{(N-1)(N-1)} \end{bmatrix}$ 
 
 ## Quantum algorithm 
 Here is the quantum circuit for solving Simon's problem, let's check out the wavefunction step by step.
