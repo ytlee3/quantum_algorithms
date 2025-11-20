@@ -16,22 +16,7 @@ $y_0 = \frac{1}{\sqrt{2}} (\alpha \omega^{ (0 * 0) /2} + \beta \omega^{( 0* 1) /
 
 QFT $|\psi \rangle = \frac{1}{\sqrt{2}} (\alpha+\beta) |0\rangle + \frac{1}{\sqrt{2}} (\alpha-\beta) |1\rangle$, where the QFT gate is the Hadamard gate.
 
-We can also approach this in the matrix form, again, $\omega = e^{2\pi i /N}$
-
-$$
-F_{N}={\frac {1}{\sqrt {N}}}
-\begin{pmatrix}
-1&1&1&1&\cdots &1 \\ 
-1&\omega &\omega ^{2}&\omega ^{3}&\cdots &\omega ^{N-1} \\\
-1&\omega ^{2}&\omega ^{4}&\omega ^{6}&\cdots &\omega ^{2(N-1)} \\ 
-1&\omega ^{3}&\omega ^{6}&\omega ^{9}&\cdots &\omega ^{3(N-1)} \\ 
-\vdots &\vdots &\vdots &\vdots &\ddots &\vdots \\
-1&\omega ^{N-1}&\omega ^{2(N-1)}&\omega ^{3(N-1)}&\cdots &\omega ^{(N-1)(N-1)}
-\end{pmatrix}
-$$
-
-In the case of one-qubit DFT: 
-
+We can also approach this in the matrix form. In the case of one-qubit DFT: 
 
 $$
 \begin{pmatrix}
@@ -47,6 +32,21 @@ y_1
 \beta
 \end{pmatrix} 
 $$
+
+In general, we can write down the transform matrix as follow, again, $\omega = e^{2\pi i /N}$
+
+$$
+F_{N}={\frac {1}{\sqrt {N}}}
+\begin{pmatrix}
+1&1&1&1&\cdots &1 \\ 
+1&\omega &\omega ^{2}&\omega ^{3}&\cdots &\omega ^{N-1} \\\
+1&\omega ^{2}&\omega ^{4}&\omega ^{6}&\cdots &\omega ^{2(N-1)} \\ 
+1&\omega ^{3}&\omega ^{6}&\omega ^{9}&\cdots &\omega ^{3(N-1)} \\ 
+\vdots &\vdots &\vdots &\vdots &\ddots &\vdots \\
+1&\omega ^{N-1}&\omega ^{2(N-1)}&\omega ^{3(N-1)}&\cdots &\omega ^{(N-1)(N-1)}
+\end{pmatrix}
+$$
+
 
 
 
