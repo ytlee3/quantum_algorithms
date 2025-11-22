@@ -73,7 +73,7 @@ The whole equation become $\frac{1}{\sqrt{N}} \sum_{k_1=0}^1 \sum_{k_2=0}^1 \sum
 
 Let's take a look at the rotation angle on $|1\rangle$, which is $e^{2 \pi i j 2^{-l}}$, where $|j\rangle = |j_1j_2j_3...j_n\rangle = j_1 2^{n-1} + j_2 2^{n-2}+ ....+ j_n 2^0$
 
-when $l=1$ rotation angle is $2 \pi i (j_1 2^{n-2} + j_2 2^{n-3}+ ....+ j_{n-1} 2^0+ j_n 2^{-1})$ we only care about the float part, integer is meanless in the $2 \pi$ rotation. Therefore, for l =1, rotation angle is $2 \pi i (j_n 2^{-1})$, which is $2 \pi i 0.j_n$ , where the convention $0.j_1j_2j_3 = j_1/2+j2/4+j3/8$
+when $l=1$ rotation angle is $2 \pi i (j_1 2^{n-2} + j_2 2^{n-3}+ ....+ j_{n-1} 2^0+ j_n 2^{-1})$ we only care about the float part, integer is meanless in the $2 \pi$ rotation. Therefore, for l =1, rotation angle is $2 \pi i (j_n 2^{-1})$, which is $2 \pi i 0.j_n$ , where the convention $0.j_1j_2j_3 = j_1/2+j_2/4+j_3/8$
 
 For l=2, the angle will be  $2 \pi i 0.j_{n-1}j_n$, for l=3, the angle will be $2 \pi i 0.j_{n-2}j_{n-1}j_n$, more and more digit become decimal
 
