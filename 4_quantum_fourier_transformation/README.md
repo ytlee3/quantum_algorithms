@@ -60,7 +60,7 @@ For bitstring $|j\rangle = |j_1j_2j_3 ....j_n\rangle = j_1 2^{n-1} + j_2 2^{n-2}
 
 We use this above equation to express $|k\rangle$ number state in the summation form and the equation of QFT(basis state) becomes 
 
-$\frac{1}{\sqrt{N}} \sum_{k=0}^{2^n-1} e^{2 \pi i j  (\sum_{l=1}^n k_l 2^{n-l})/ 2^n} |k\rangle = \frac{1}{\sqrt{N}} \sum_{k=0}^{2^n-1} e^{2 \pi i j  \sum_{l=1}^n k_l 2^{-1}} |k\rangle$  
+$\frac{1}{\sqrt{N}} \sum_{k=0}^{2^n-1} e^{2 \pi i j  (\sum_{l=1}^n k_l 2^{n-l})/ 2^n} |k\rangle = \frac{1}{\sqrt{N}} \sum_{k=0}^{2^n-1} e^{2 \pi i j  \sum_{l=1}^n k_l 2^{-1}} |k\rangle = \frac{1}{\sqrt{N}} \sum_{k=0}^{2^n-1} e^{2 \pi i j  \sum_{l=1}^n k_l 2^{-1}} |k_1k_2k_3...k_n\rangle$  
 
 where $\sum_{k=0}^{2^{n-1}}$ is in the integer basis, we can express is in the sum of each bit as $\sum_{k_1=0}^1 \sum_{k_2=0}^1 \sum_{k_3=0}^1 ... \sum_{k_n=0}^1$ 
 
