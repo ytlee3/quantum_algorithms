@@ -53,6 +53,8 @@ Generally mapping of QFT on arbitrary state $|\psi \rangle = \sum_{j=0}^{2^n-1} 
 
 $F(|\psi \rangle) = \sum_{j=0}^{2^n-1} x_j F|j\rangle = \frac{1}{\sqrt{2^n}} \sum_{j=0}^{2^n-1} x_j \sum_{k=0}^{2^n-1} exp(2 \pi i jk/N) |k\rangle =  \frac{1}{\sqrt{2^n}} \sum_{k=0}^{2^n-1} \sum_{j=0}^{2^n-1}  x_j  exp(2 \pi i jk/N) |k\rangle = \sum_{k=0}^{2^n-1} y_k |k\rangle$
 
+`Important derivivation`
+
 
 ## Quantum algorithm 
 Here is the quantum circuit for solving Simon's problem, let's check out the wavefunction step by step.
