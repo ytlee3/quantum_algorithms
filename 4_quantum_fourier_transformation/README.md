@@ -99,3 +99,8 @@ $$
 
 <img width="3582" height="1194" alt="Q_fourier_nqubits" src="https://github.com/user-attachments/assets/4b74666a-519d-464f-a604-9219d7193afa" />
 
+We check the first qubit first as the other follows the same way to derive. 
+
+1. After Hadarmard gate $|psi_1 \rangle = \frac{1}{\sqrt{2}} (|0\rangle + e^{2\pi i 0. x_1})
+
+
