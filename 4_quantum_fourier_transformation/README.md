@@ -103,4 +103,6 @@ We check the first qubit first as the other follows the same way to derive.
 
 1. After Hadarmard gate $|\psi_1 \rangle = \frac{1}{\sqrt{2}} (|0\rangle + e^{2\pi i 0. x_1} |1\rangle)$ if $|x_1 \rangle = 0$, the factor =1 and = -1 when $|x_1\rangle =1$
 
+2. 
+
 
