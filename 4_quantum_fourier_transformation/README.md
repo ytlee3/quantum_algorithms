@@ -135,6 +135,7 @@ $$
 
 4. Do the same procedure for every single qubit and we will get the QFT of the bitstring.
 
+
 Rotation angle $|2^-1, 2^-2, 2^-3,...2^-n \rangle$, take $|1101\rangle$ for example, it will be 0.1, 0.01, 0.101, 0.1101, which is 1/2, 1/4, 1/2+1/8, 1/2+1/4+1/16
 
 
