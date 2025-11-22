@@ -64,7 +64,7 @@ $\frac{1}{\sqrt{N}} \sum_{k=0}^{2^n-1} e^{2 \pi i j  (\sum_{l=1}^n k_l 2^{n-l})/
 
 where $\sum_{k=0}^{2^{n-1}}$ is in the integer basis, we can express is in the sum of each bit as $\sum_{k_1=0}^1 \sum_{k_2=0}^1 \sum_{k_3=0}^1 ... \sum_{k_n=0}^1$ 
 
-The whole equation become $\frac{1}{\sqrt{N}} \sum_{k_1=0}^1 \sum_{k_2=0}^1 \sum_{k_3=0}^1 ... \sum_{k_n=0}^1  \otimes_{l=1}^n e^{2 \pi ij k_l 2^{-1}} $
+The whole equation become $\frac{1}{\sqrt{N}} \sum_{k_1=0}^1 \sum_{k_2=0}^1 \sum_{k_3=0}^1 ... \sum_{k_n=0}^1  \otimes_{l=1}^n e^{2 \pi ij k_l 2^{-1}} |k$
 
 
 ## Quantum algorithm 
