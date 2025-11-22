@@ -131,4 +131,6 @@ e^{2 \pi i 0.j_n}
 (|0\rangle + e^{2 \pi i (0.x_1x_2)} |1 \rangle )
 $$
 
+3. when we keep doing the controlled-rotation gate, the final $|\psi \rangle = (|0\rangle + e^{2 \pi i 0.j_1j_2...j_n} |1\rangle)$
+
 
