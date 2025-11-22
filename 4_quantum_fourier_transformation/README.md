@@ -21,7 +21,7 @@ Let's take one qubit for example, we have $|\psi \rangle = \alpha |0\rangle + \b
 
 $$y_0 = \frac{1}{\sqrt{2}} (\alpha \omega^{ (0 * 0) /2} + \beta \omega^{( 0* 1) /2}) = \frac{1}{\sqrt{2}} (\alpha + \beta) $$, $$y_1 = \frac{1}{\sqrt{2}} (\alpha \omega^{ (0* 1) /2}) + \beta \omega^{(1*1)/2}) = \frac{1}{\sqrt{2}} (\alpha - \beta)$$
 
-QFT $|\psi \rangle = \frac{1}{\sqrt{2}} (\alpha+\beta) |0\rangle + \frac{1}{\sqrt{2}} (\alpha-\beta) |1\rangle$, where the QFT gate is the Hadamard gate. \\ 
+QFT $|\psi \rangle = \frac{1}{\sqrt{2}} (\alpha+\beta) |0\rangle + \frac{1}{\sqrt{2}} (\alpha-\beta) |1\rangle$, where the QFT gate is the Hadamard gate. 
 We can also approach this in the matrix form. In the case of one-qubit DFT: 
 
 $$
@@ -62,8 +62,7 @@ We use this above equation to express $|k\rangle$ number state in the summation 
 
 $\frac{1}{\sqrt{N}} \sum_{k=0}^{2^n-1} e^{2 \pi i j  (\sum_{l=1}^n k_l 2^{n-l})/ 2^n} |k\rangle = \frac{1}{\sqrt{N}} \sum_{k=0}^{2^n-1} e^{2 \pi i j  \sum_{l=1}^n k_l 2^{-1}} |k\rangle$  
 
-where $\sum_{k=0}^{2^{n-1}}$ is in the integer basis, we can express is in the sum of each bit as $\sum_{k_1=0}^1 \sum_{k_2=0}^1 \sum_{k_3=0}^1 ... \sum_{k_n=0}^1 $
-
+where $\sum_{k=0}^{2^{n-1}}$ is in the integer basis, we can express is in the sum of each bit as $\sum_{k_1=0}^1 \sum_{k_2=0}^1 \sum_{k_3=0}^1 ... \sum_{k_n=0}^1 $ \\
 The whole equation become $\frac{1}{\sqrt{N}} \sum_{k_1=0}^1 \sum_{k_2=0}^1 \sum_{k_3=0}^1 ... \sum_{k_n=0}^1  \otimes_{l=1}^n e^{2 \pi ij k_l 2^{-1}} $
 
 
