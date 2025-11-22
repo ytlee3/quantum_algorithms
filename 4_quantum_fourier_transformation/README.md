@@ -48,7 +48,9 @@ F_{N}={\frac {1}{\sqrt {N}}}
 $$
 
 
+Generally mapping of QFT: 
 
+$F(\psi \rangle)$
 
 
 ## Quantum algorithm 
