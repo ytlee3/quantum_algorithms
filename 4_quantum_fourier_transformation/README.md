@@ -135,4 +135,6 @@ $$
 
 4. Do the same procedure for every single qubit and we will get the QFT of the bitstring.
 
+Rotation angle |2^-1, 2^-2, 2^-3,...2^-n \rangle 
+$$
 
