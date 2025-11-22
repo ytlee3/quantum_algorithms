@@ -127,6 +127,8 @@ e^{2 \pi i 0.j_n}
 (|0\rangle + e^{2 \pi i (0.x_1 + 0.01)} |1 \rangle )
 = \frac{1}{\sqrt{2}}
 (|0\rangle + e^{2 \pi i (0.x_1 + 0.0x_2)} |1 \rangle )
+= \frac{1}{\sqrt{2}}
+(|0\rangle + e^{2 \pi i (0.x_1x_2)} |1 \rangle )
 $$
 
 
