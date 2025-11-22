@@ -88,7 +88,7 @@ Take 3 qubits for example, $|j_1j_2j_3 \rangle = \frac{(|0\rangle + e^{2\pi i 0.
 
 Here is the quantum circuit for performing quantum fourier transformation, let's check out the wavefunction step by step.
 $R_k$ is the dyadic rational phase gate
-$ R_k =
+$R_k =
 \begin{pmatrix}
 1 & 0 \\
 0 & e^{2 \pi i /2^k}
