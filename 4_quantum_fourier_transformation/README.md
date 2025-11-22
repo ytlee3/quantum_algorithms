@@ -85,4 +85,6 @@ Take 3 qubits for example, $|j_1j_2j_3 \rangle = \frac{(|0\rangle + e^{2\pi i 0.
 
 
 ## Quantum algorithm 
-Here is the quantum circuit for solving Simon's problem, let's check out the wavefunction step by step.
+
+<img width="3582" height="1194" alt="Q_fourier_nqubits" src="https://github.com/user-attachments/assets/4b74666a-519d-464f-a604-9219d7193afa" />
+
