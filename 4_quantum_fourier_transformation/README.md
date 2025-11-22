@@ -111,7 +111,7 @@ $$
 \frac{1}{\sqrt{2}}
 \begin{pmatrix}
 1 & 0 \\
-0 & e^{2 \pi i /2^2 \\
+0 & e^{2 \pi i /2^2} \\
 \end{pmatrix} 
 $$
 
