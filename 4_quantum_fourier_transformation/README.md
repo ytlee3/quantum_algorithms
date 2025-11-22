@@ -81,7 +81,7 @@ For l=2, the angle will be  $2 \pi i 0.j_{n-1}j_n$, for l=3, the angle will be $
 
 $$|j_1,....,j_n \rangle \rightarrow \frac{(|0\rangle + e^{2\pi i 0.j_n}|1\rangle)(|0\rangle + e^{2\pi i 0.j_{n-1}j_n}|1\rangle)...(|0\rangle + e^{2\pi i 0.j_1j_2...j_n}|1\rangle)}{2^{n/2}}$$
 
-Take 3 qubits for example, $|j_1j_2j_3 \rangle = \frac{(|0\rangle + e^{2\pi i 0.j_3} |1\rangle)(|0\rangle + e^{2\pi i 0.j_2j_3} |1\rangle)(|0\rangle + e^{2\pi i 0.j_1j_2j_3} |1\rangle)}{2}$
+Take 3 qubits for example, $|j_1j_2j_3 \rangle = \frac{(|0\rangle + e^{2\pi i 0.j_3} |1\rangle)(|0\rangle + e^{2\pi i 0.j_2j_3} |1\rangle)(|0\rangle + e^{2\pi i 0.j_1j_2j_3} |1\rangle)}{\sqrt{8}}$
 
 
 ## Quantum algorithm 
