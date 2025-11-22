@@ -48,9 +48,9 @@ F_{N}={\frac {1}{\sqrt {N}}}
 $$
 
 
-Generally mapping of QFT: 
+Generally mapping of QFT with $|\psi \rangle = \sum_{j=0}^{2^n-1} x_j |j\rangle$ : 
 
-$F(\psi \rangle)$
+$F(|\psi \rangle)$
 
 
 ## Quantum algorithm 
