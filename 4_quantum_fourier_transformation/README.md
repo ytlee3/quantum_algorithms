@@ -113,6 +113,16 @@ $$
 1 & 0 \\
 0 & e^{2 \pi i /2^2} \\
 \end{pmatrix} 
+(
+\begin{pmatrix}
+1 \\
+0 
+\end{pmatrix} 
++
+\begin{pmatrix}
+0 \\
+e^{2 \pi i 0.j_n}
+\end{pmatrix} 
 $$
 
 
