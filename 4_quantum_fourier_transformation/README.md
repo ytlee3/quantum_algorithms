@@ -57,7 +57,7 @@ $F(|\psi \rangle) = \sum_{j=0}^{2^n-1} x_j F|j\rangle = \frac{1}{\sqrt{2^n}} \su
 
 For bitstring $|j\rangle = |j_1j_2j_3 ....j_n\rangle = j_1 2^{n-1} + j_2 2^{n-2}+ ....+ j_n 2^0$
 
-The general form on basis state will be: $|j\rangle \rightarrow \frac{1}{\sqrt{N}} \sum_{k=0}^{2^n-1} e^{2 \pi i jk/N} |k\rangle$ 
+The general form on basis state will be: $|j\rangle \rightarrow \frac{1}{\sqrt{N}} \sum_{k=0}^{2^n-1} e^{2 \pi i jk/N} =  \frac{1}{\sqrt{N}} \sum_{k=0}^{2^n-1} e^{2 \pi i jk/N} |k\rangle$ 
 
 
 ## Quantum algorithm 
