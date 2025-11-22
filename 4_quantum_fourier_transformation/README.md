@@ -70,6 +70,8 @@ where $\sum_{k=0}^{2^{n-1}}$ is in the integer basis, we can express is in the s
 
 The whole equation become $\frac{1}{\sqrt{N}} \sum_{k_1=0}^1 \sum_{k_2=0}^1 \sum_{k_3=0}^1 ... \sum_{k_n=0}^1  \otimes_{l=1}^n e^{2 \pi ij k_l 2^{-1}} |k_l \rangle$
 
+$ = $\frac{1}{\sqrt{2^n}} (|0\rangle + 
+
 
 ## Quantum algorithm 
 Here is the quantum circuit for solving Simon's problem, let's check out the wavefunction step by step.
