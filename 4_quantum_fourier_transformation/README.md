@@ -77,6 +77,12 @@ when $l=1$ rotation angle is $2 \pi i (j_1 2^{n-2} + j_2 2^{n-3}+ ....+ j_{n-1} 
 
 For l=2, the angle will be  $2 \pi i 0.j_{n-1}j_n$, for l=3, the angle will be $2 \pi i 0.j_{n-2}j_{n-1}j_n$, more and more digit become decimal
 
+`General form in product representation` 
+
+$$|j_1,....,j_n \rangle \rightarrow \frac{(|0\rangle + e^{2\pi i 0.j_n}|1))(|0\rangle + e^{2\pi i 0.j_{n-1}j_n}|1))...(|0\rangle + e^{2\pi i 0.j_1j_2...j_n}|1)}{2^{n/2} $$
+
+
+
 
 
 ## Quantum algorithm 
