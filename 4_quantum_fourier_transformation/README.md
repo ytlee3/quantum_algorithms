@@ -59,7 +59,7 @@ For bitstring $|j\rangle = |j_1j_2j_3 ....j_n\rangle = j_1 2^{n-1} + j_2 2^{n-2}
 
 We use this above equation to express $|k\rangle$ number state in the summation form and the equation becomes 
 
-$\frac{1}{\sqrt{N}} \sum_{k=0}^{2^n-1} e^{2 \pi i j  (\sum_{l=1}^n k_l 2^{n-l})/ 2^k} |k\rangle$ 
+$\frac{1}{\sqrt{N}} \sum_{k=0}^{2^n-1} e^{2 \pi i j  (\sum_{l=1}^n k_l 2^{n-l})/ 2^n} |k\rangle$ 
 
 
 ## Quantum algorithm 
