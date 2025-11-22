@@ -47,7 +47,7 @@ F_{N}={\frac {1}{\sqrt {N}}}
 \end{pmatrix}
 $$
 
-Generally mapping of QFT on basis state: $|j\rangle \rightarrow \frac{1}{\sqrt{N}} \sum_{k=0}^{2^n-1} exp(2 \pi i jk/N) |k\rangle$
+Generally mapping of QFT on basis state: $|j\rangle \rightarrow \frac{1}{\sqrt{N}} \sum_{k=0}^{2^n-1} exp(2 \pi i jk/N) |k\rangle$ (to all combination)
 
 Generally mapping of QFT on arbitrary state $|\psi \rangle = \sum_{j=0}^{2^n-1} x_j |j\rangle$ : 
 
