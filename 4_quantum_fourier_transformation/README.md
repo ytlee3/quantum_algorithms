@@ -79,7 +79,7 @@ For l=2, the angle will be  $2 \pi i 0.j_{n-1}j_n$, for l=3, the angle will be $
 
 `General form in product representation` 
 
-$$|j_1,....,j_n \rangle \rightarrow \frac{(|0\rangle + e^{2\pi i 0.j_n}|1)(|0\rangle + e^{2\pi i 0.j_{n-1}j_n}|1)...(|0\rangle + e^{2\pi i 0.j_1j_2...j_n}|1)}{2^{n/2} $$
+$$|j_1,....,j_n \rangle \rightarrow \frac{(|0\rangle + e^{2\pi i 0.j_n}|1\rangle)(|0\rangle + e^{2\pi i 0.j_{n-1}j_n}|1\rangle)...(|0\rangle + e^{2\pi i 0.j_1j_2...j_n}|1\rangle)}{2^{n/2}}$$
 
 
 
