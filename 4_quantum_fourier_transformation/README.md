@@ -133,4 +133,6 @@ $$
 
 3. when we keep doing the controlled-rotation gate, the final $|\psi \rangle = (|0\rangle + e^{2 \pi i 0.j_1j_2...j_n} |1\rangle)$
 
+4. Do the same procedure for every single qubit and we will get the QFT of the bitstring.
+
 
