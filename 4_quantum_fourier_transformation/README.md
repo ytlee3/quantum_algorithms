@@ -107,3 +107,12 @@ We check the first qubit first as the other follows the same way to derive.
 
 if $|x_2 \rangle = |1 \rangle$
 
+$$
+\frac{1}{\sqrt{2}}
+\begin{pmatrix}
+1 & 0 \\
+0 & e^{2 \pi i /2^2 \\
+\end{pmatrix} 
+$$
+
+
