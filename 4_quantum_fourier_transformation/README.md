@@ -113,7 +113,7 @@ $$
 1 & 0 \\
 0 & e^{2 \pi i /2^2} \\
 \end{pmatrix} 
-(
+[
 \begin{pmatrix}
 1 \\
 0 
@@ -122,7 +122,9 @@ $$
 \begin{pmatrix}
 0 \\
 e^{2 \pi i 0.j_n}
-\end{pmatrix} 
+\end{pmatrix} ]
+= \frac{1}{\sqrt{2}}
+(|0\rangle + e^{2 \pi i (0.x_1 + 0.0x_2)} |1 \rangle )
 $$
 
 
