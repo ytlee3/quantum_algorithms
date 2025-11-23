@@ -135,7 +135,7 @@ $$
 
 4. Do the same procedure for every single qubit and we will get the QFT of the bitstring.
 
-5. Don't forget the swap operation at the end to flip the string order
+5. Don't forget the swap operation at the end to flip the bitstring order
 
 Rotation angle $|2^{-1}, 2^{-2}, 2^{-3},...2^{-n} \rangle$. Take $|1101\rangle$ for example, it will be [0.1, 0.01, 0.101, 0.1101], the corresponding rotation angle in the Fourier basis is [1/2, 1/4, 1/2+1/8, 1/2+1/4+1/16]
 
