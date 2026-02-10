@@ -16,7 +16,7 @@ Here is the quantum circuit for performing quantum phase estimation, let's check
 <img width="982" height="474" alt="T7EIw" src="https://github.com/user-attachments/assets/63353145-8758-4fd3-b2ab-ca62321e1d17" />
 
 
-1. After Hadarmard gate $ 
+1. After Hadarmard gate $ |\psi \rangle = H^{\otimes n} |0\rangle^{\otimes n} 
 
 2. if $|x_2 \rangle = |0\rangle$ , $(|0\rangle+ e^{2 \pi i 0.x_1 0 |1\rangle}) / \sqrt{2}$ (nothing really change).
 
