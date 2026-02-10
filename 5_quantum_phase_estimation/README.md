@@ -37,7 +37,7 @@ For $|7\rangle$ is $|111\rangle$  => $e^{2 \pi i  \phi 2^2} \otimes e^{2 \pi i  
 
 3. Inverse Quantum Fourier Transformation ($QFT^{-1}$)
 
-`Recall QFT` (N = 2^n)
+`Recall QFT` ($N = 2^n$)
 
 $QFT_N |k \rangle = \frac{1}{\sqrt{N}} \sum_{j=0}^{N-1} e^{2 \pi i jk/N} |j\rangle $
 
