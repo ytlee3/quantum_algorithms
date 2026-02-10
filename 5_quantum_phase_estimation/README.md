@@ -64,5 +64,7 @@ $$
 
 Rotation angle $|2^{-1}, 2^{-2}, 2^{-3},...2^{-n} \rangle$. Take $|1101\rangle$ for example, it will be [0.1, 0.01, 0.101, 0.1101], the corresponding rotation angle in the Fourier basis is [1/2, 1/4, 1/2+1/8, 1/2+1/4+1/16]
 
+## Reference ## 
 
+Kitaev, A. Yu. "Quantum measurements and the Abelian stabilizer problem." arXiv preprint quant-ph/9511026 (1995).
 
