@@ -1,7 +1,11 @@
  
 ## Introduction ## 
 
-Quantum phase estimation (QPE) is a quantum algorithm to evaluate the phase $\phi$ corresponding to an eigenvalue of a given unitary operator $U$
+Quantum phase estimation (QPE) is a quantum algorithm to evaluate the phase $\phi$ corresponding to an eigenvalue $e^{2\pi i \phi} of a given unitary operator $U$, such that 
+
+$$ 
+U |\psi \rangle = e^{2\pi i \phi} |\psi \rangle 
+$$
 
 
 ## Quantum algorithm 
