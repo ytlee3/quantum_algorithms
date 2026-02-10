@@ -43,7 +43,7 @@ $QFT_N |k \rangle = \frac{1}{\sqrt{N}} \sum_{j=0}^{N-1} e^{2 \pi i jk/N} |j\rang
 
 $QFT_N^{-1} |k \rangle = \frac{1}{\sqrt{N}} \sum_{j=0}^{N-1} e^{-2 \pi i jk/N} |j\rangle $
 
-$|\psi_3 \rangle = \frac{1}{\sqrt{2^n}} \sum_{k=0}^{2^n-1} e^{-2 \pi i jk/N} \frac{1}{\sqrt{2}^n} \sum_{j=0}^{2^n-1} e^{2 \pi i \phi j} |j\rangle$
+$|\psi_3 \rangle = \frac{1}{\sqrt{2^n}} \sum_{k=0}^{2^n-1} e^{-2 \pi i jk/2^n} \frac{1}{\sqrt{2}^n} \sum_{j=0}^{2^n-1} e^{2 \pi i \phi j} |j\rangle$
 
 
 
