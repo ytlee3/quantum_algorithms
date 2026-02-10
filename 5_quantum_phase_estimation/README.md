@@ -28,6 +28,7 @@ Using the binary representation, we can rewrite the $\psi_2$ as
 $|\psi_2 \rangle = \frac{1}{\sqrt{2}^n} \sum_{j=0}^{2^n-1} e^{2 \pi i \phi j} |j\rangle \otimes |\psi \rangle$
 
 Take 3 qubits for example
+
 $|\psi_2 \rangle = \frac{1}{\sqrt{2}^3} (|0\rangle + U^{2^2} |1\rangle) \otimes (|0\rangle + U^{2^1} |1\rangle)  \otimes (|0\rangle + U^{2^0} |1\rangle) $
 
 
