@@ -43,42 +43,9 @@ $QFT_N |k \rangle = \frac{1}{\sqrt{N}} \sum_{j=0}^{N-1} e^{2 \pi i jk/N} |j\rang
 
 $QFT_N^{-1} |k \rangle = \frac{1}{\sqrt{N}} \sum_{j=0}^{N-1} e^{-2 \pi i jk/N} |j\rangle $
 
+$|\psi_3 \rangle = \frac{1}{\sqrt{2^n}} \sum_{k=0}^{2^n-1} e^{-2 \pi i jk/N} \frac{1}{\sqrt{2}^n} \sum_{j=0}^{2^n-1} e^{2 \pi i \phi j} |j\rangle$
 
-4. if $|x_2 \rangle = |0\rangle$ , $(|0\rangle+ e^{2 \pi i 0.x_1 0 |1\rangle}) / \sqrt{2}$ (nothing really change).
 
-if $|x_2 \rangle = |1 \rangle$
-
-$$
-\frac{1}{\sqrt{2}}
-\begin{pmatrix}
-1 & 0 \\
-0 & e^{2 \pi i /2^2} \\
-\end{pmatrix} 
-[
-\begin{pmatrix}
-1 \\
-0 
-\end{pmatrix} 
-+
-\begin{pmatrix}
-0 \\
-e^{2 \pi i 0.j_n}
-\end{pmatrix} ]
-= \frac{1}{\sqrt{2}}
-(|0\rangle + e^{2 \pi i (0.x_1 + 0.01)} |1 \rangle )
-= \frac{1}{\sqrt{2}}
-(|0\rangle + e^{2 \pi i (0.x_1 + 0.0x_2)} |1 \rangle )
-= \frac{1}{\sqrt{2}}
-(|0\rangle + e^{2 \pi i (0.x_1x_2)} |1 \rangle )
-$$
-
-3. when we keep doing the controlled-rotation gate, the final $|\psi \rangle = (|0\rangle + e^{2 \pi i 0.j_1j_2...j_n} |1\rangle)$
-
-4. Do the same procedure for every single qubit and we will get the QFT of the bitstring.
-
-5. Don't forget the swap operation at the end to flip the bitstring order (convention)
-
-Rotation angle $|2^{-1}, 2^{-2}, 2^{-3},...2^{-n} \rangle$. Take $|1101\rangle$ for example, it will be [0.1, 0.01, 0.101, 0.1101], the corresponding rotation angle in the Fourier basis is [1/2, 1/4, 1/2+1/8, 1/2+1/4+1/16]
 
 ## Reference ## 
 
