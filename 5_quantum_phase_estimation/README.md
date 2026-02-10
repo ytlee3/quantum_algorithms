@@ -10,6 +10,7 @@ $$
 This algorithm was first introduced by Kitaev. It involves the inverse QFT and is a central routine in Shor’s algorithm and Quantum Amplitude Estimation.
 
 ## Quantum algorithm 
+<img width="1920" height="793" alt="PhaseCircuit" src="https://github.com/user-attachments/assets/b1f3089b-6ee2-43fd-8ea1-edad4bd35934" />
 
 Here is the quantum circuit for performing quantum fourier transformation, let's check out the wavefunction step by step.
 $R_k$ is the dyadic rational phase gate
