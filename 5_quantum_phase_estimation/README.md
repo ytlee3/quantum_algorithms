@@ -25,7 +25,7 @@ $|\psi_2 \rangle = \frac{1}{\sqrt{2}^n}  \[ (|0\rangle + U^{2^n-1} |1\rangle) \o
 
 Using the binary representation, we can rewrite the $\psi_2$ as 
 
-$|\psi_2 \rangle = \frac{1}{\sqrt{2}^n} \sum_{j=0}^{2^n-1} e^{2 \pi i \phi j} |j\rangle $
+$|\psi_2 \rangle = \frac{1}{\sqrt{2}^n} \sum_{j=0}^{2^n-1} e^{2 \pi i \phi j} |j\rangle \otimes |\psi \rangle$
 
 
 4. if $|x_2 \rangle = |0\rangle$ , $(|0\rangle+ e^{2 \pi i 0.x_1 0 |1\rangle}) / \sqrt{2}$ (nothing really change).
