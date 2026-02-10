@@ -16,7 +16,7 @@ Here is the quantum circuit for performing quantum phase estimation, let's check
 <img width="982" height="474" alt="T7EIw" src="https://github.com/user-attachments/assets/63353145-8758-4fd3-b2ab-ca62321e1d17" />
 
 
-1. After Hadarmard gate $|\psi_1 \rangle = H^{\otimes n} |0\rangle^{\otimes n}  = |+\rangle^{\otimes n} = \frac{1}{2^{n/2}} \sum_{j=0}^{2^n-1}|j\rangle$
+1. After Hadarmard gate $|\psi_1 \rangle = H^{\otimes n} |0\rangle^{\otimes n} \otimes |\psi \rangle = |+\rangle^{\otimes n} \otimes |\psi \rangle= \frac{1}{2^{n/2}} \sum_{j=0}^{2^n-1}|j\rangle \otimes |\psi \rangle$
    (we switch to the binary representation j)
 
 2. For the controlled-U gate
