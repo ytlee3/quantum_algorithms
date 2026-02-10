@@ -35,7 +35,7 @@ $|\psi_2 \rangle = \frac{1}{\sqrt{2}^3} \[ (|0\rangle + U^{2^2} |1\rangle) \otim
 For $|7\rangle$ is $|111\rangle$  => $e^{2 \pi i  \phi 2^2} \otimes e^{2 \pi i  \phi 2^1} \otimes e^{2 \pi i  \phi 2^0} |111 \rangle$ => $e^{2\pi i \phi j} |j\rangle $ 
 
 
-3. Inverse Quantum Fourier Transformation ($QFT^{-1}$)
+3. Inverse Quantum Fourier Transformation ($QFT^{-1}$, implemented as the QFT circuit but in the reverse order) 
 
 `Recall QFT` ($N = 2^n$)
 
