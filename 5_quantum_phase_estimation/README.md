@@ -16,21 +16,7 @@ Here is the quantum circuit for performing quantum phase estimation, let's check
 <img width="982" height="474" alt="T7EIw" src="https://github.com/user-attachments/assets/63353145-8758-4fd3-b2ab-ca62321e1d17" />
 
 
-$R_k$ is the dyadic rational phase gate
-
-$$
-R_k = 
-\begin{pmatrix}
-1 & 0 \\ 
-0 & e^{2 \pi i /2^k} 
-\end{pmatrix}
-$$
-
-<img width="3582" height="1194" alt="Q_fourier_nqubits" src="https://github.com/user-attachments/assets/4b74666a-519d-464f-a604-9219d7193afa" />
-
-We check the first qubit first as the other follows the same way to derive. 
-
-1. After Hadarmard gate $|\psi_1 \rangle = \frac{1}{\sqrt{2}} (|0\rangle + e^{2\pi i 0. x_1} |1\rangle)$ if $|x_1 \rangle = 0$, the factor =1 and = -1 when $|x_1\rangle =1$
+1. After Hadarmard gate $ 
 
 2. if $|x_2 \rangle = |0\rangle$ , $(|0\rangle+ e^{2 \pi i 0.x_1 0 |1\rangle}) / \sqrt{2}$ (nothing really change).
 
