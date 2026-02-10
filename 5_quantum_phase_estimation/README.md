@@ -7,7 +7,7 @@ $$
 U |\psi \rangle = e^{2\pi i \phi} |\psi \rangle 
 $$
 
-This algorithm was first introduced by Kiteav
+This algorithm was first introduced by Kitaev. It involves the inverse QFT and is a central routine in Shor’s algorithm and Quantum Amplitude Estimation.
 
 ## Quantum algorithm 
 
