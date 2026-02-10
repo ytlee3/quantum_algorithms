@@ -35,11 +35,14 @@ $|\psi_2 \rangle = \frac{1}{\sqrt{2}^3} \[ (|0\rangle + U^{2^2} |1\rangle) \otim
 For $|7\rangle$ is $|111\rangle$  => $e^{2 \pi i  \phi 2^2} \otimes e^{2 \pi i  \phi 2^1} \otimes e^{2 \pi i  \phi 2^0} |111 \rangle$ => $e^{2\pi i \phi j} |j\rangle $ 
 
 
-3. Inverse Quantum Fourier Transformation ($QFT^{\dagger}$)
+3. Inverse Quantum Fourier Transformation ($QFT^{-1}$)
 
 `Recall QFT`
 
-QFT_n |k \rangle = \frac{1}{\sqrt{n}} \sum_{j=0}^{n-1} e^{2 \pi i jk/n} |j\rangle $
+$QFT_n |k \rangle = \frac{1}{\sqrt{n}} \sum_{j=0}^{n-1} e^{2 \pi i jk/n} |j\rangle $
+
+$QFT_n^{-1} |k \rangle = \frac{1}{\sqrt{n}} \sum_{j=0}^{n-1} e^{-2 \pi i jk/n} |j\rangle $
+
 
 4. if $|x_2 \rangle = |0\rangle$ , $(|0\rangle+ e^{2 \pi i 0.x_1 0 |1\rangle}) / \sqrt{2}$ (nothing really change).
 
