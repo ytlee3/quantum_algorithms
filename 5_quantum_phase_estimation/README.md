@@ -49,6 +49,8 @@ $|\psi_3 \rangle = \frac{1}{\sqrt{2^n}} \sum_{k=0}^{2^n-1} e^{-2 \pi i jk/2^n} \
 
 When measuring, $k = 2^n \phi$ will have highest intensity with $|k\rangle$
 
+Integer condition: $\pi/2**(t), t = [0,1,2,..n-1]$
+
 ## Reference ## 
 
 Kitaev, A. Yu. "Quantum measurements and the Abelian stabilizer problem." arXiv preprint quant-ph/9511026 (1995).
